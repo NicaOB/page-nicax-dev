@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor-header{
+    width: auto;
+    height: 620px;
+    background-image: url(./puntitos.svg);
+}
+
+.contenedor-logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-logo{
+    width: 120px;
+    height: 80px;
+    margin: 16px 0px 0px 17px ;
+}
+
+.botones-nav{
+    margin: 29px 20px 0px 0px;
+}
+
+.contenedor-opciones-movil{
+    margin-bottom: 7px;
+    width: 36px;
+    height: 6px;
+    background-color: #21618C;
+}
+
+.contenedor-imagen-titulo{
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 58px;
+}
+
+.titulo-presentacion{
+    font-family: 'Open Sans';
+    font-size: 45px;
+    text-align: center;
+}
+
+.imagen-presentacion{
+    width: 300px;
+    height: 230px;
+}
+
+.contenedor-imagen-presentacion{
+    margin: auto;
+}
+
+.contenedor-informacion-personal{
+    background-color: rgba(20, 20, 20, 1);
+    width: 100%;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.titulo-sobre-mi{
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.contenedor-sobre-mi-informacion{
+    margin: 0px 31px 0px 31px;
+    width: 300px;
+    height: 193px;
+    font-size: 16px;
+}
+
+.informacion-sobre-mi{
+    margin: 0px;
+    color: white;
+    font-family: 'Roboto';
+}
