@@ -1,9 +1,9 @@
-body {
-    margin: 0px;
-}
-
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
 }
 
 .contenedor-header {
@@ -123,4 +123,65 @@ body {
     font-family: 'Roboto';
     text-align: center;
     font-size: 16px;
+}
+.contenedor-contacto-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 660px;
+    background-color: black;
+}
+.contenedor-contacto-subtitulo{
+    margin: 69px 0px 36px 0px;
+
+}
+.subtitulo-contacto{
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    color: white;
+}
+.label-texto{
+    font-family: 'Roboto';
+    font-size: 13px;
+    display: block;
+    color: white;
+    margin-bottom: 9px;
+}
+.contenedor-nombre-formulario{
+    margin-bottom: 27px;
+}
+.contenedor-email-formulario{
+    margin-bottom: 21px;
+}
+.input-formulario{
+    width: 335px;
+    height: 45px;
+    font-size: 20px;
+}
+.textarea-formulario{
+    resize: none;
+    width: 335px;
+    height: 113px;
+    font-size: 18px;
+}
+.contenedor-boton-enviar-formulario{
+    margin-top: 60px;
+}
+.boton-enviar-formulario{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #21618C;
+    border: none;
+    border-radius: 8px;
+    width: 335px;
+    height: 45px;
+}
+.boton-enviar-formulario:active{
+    background: #AED6F1;
+    color:#2E86C1;
+    border: solid 3px;
 }
