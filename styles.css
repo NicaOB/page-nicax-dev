@@ -53,7 +53,7 @@ body {
     text-align: center;
     margin: 0px;
 }
-@media (min-width: 1366px){
+@media (min-width: 1024px){
     .image-logo{
         width: 145px;
         height: 100px;
@@ -146,7 +146,7 @@ body {
     background-image: url(./images/check.svg);
 }
 
-@media (min-width: 1366px){
+@media (min-width: 1024px){
     .contenedor-informacion-personal{
         flex-direction: row-reverse;
         justify-content: center;
@@ -182,6 +182,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .mis-servicios-informacion {
     display: flex;
     justify-content: center;
@@ -209,7 +210,7 @@ body {
     text-align: center;
     font-size: 16px;
 }
-@media(min-width: 1366px){
+@media(min-width: 1024px){
     .contenedor-mis-servicios{
         height: 604px;
     }
@@ -288,7 +289,7 @@ body {
     color: #2e86c1;
     border: solid 3px;
 }
-@media (min-width:1366px){
+@media (min-width:1024px){
     .contenedor-contacto-formulario{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -315,7 +316,7 @@ body {
         width: 376px;
     }
 }
-/*HASTA AQUI TERMINADO*/
+
 .contenedor-pie-pagina {
     display: flex;
     flex-direction: column;
@@ -353,7 +354,7 @@ body {
     display: inline-block;
     margin: 0px;
 }
-@media (min-width: 1366px){
+@media (min-width: 1024px){
     .contenedor-pie-pagina{
         flex-direction: row;
         justify-content: space-between;
